@@ -9,6 +9,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
-  }
+    "inquirer": "^8.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derricn2/GENERATEME-A-README.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/derricn2/GENERATEME-A-README/issues"
+  },
+  "homepage": "https://github.com/derricn2/GENERATEME-A-README#readme"
 }
