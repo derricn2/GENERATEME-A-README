@@ -34,5 +34,11 @@
 
   If you have any questions, please reach out:
 
-  - GitHub: [derricn2](https://github.com/derricn2)
-  - Email: derricn2@gmail.com
+  - GitHub: [test](https://github.com/test)
+  - Email: test
+
+  ## License
+  
+  This project is licensed under the MIT License. Refer to the link below for more information:
+  
+   - [MIT License](https://opensource.org/licenses/MIT)
