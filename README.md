@@ -13,6 +13,7 @@
    - [Contribution](#contribution)
    - [Tests](#tests)
    - [Questions/Contact Info](#questions/contact-info)
+   - [License](#license)
    
   ## Installation
 

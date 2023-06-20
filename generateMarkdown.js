@@ -9,7 +9,13 @@ function renderLicenseBadge(license) {
 
 // Function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) {
+  if (license === 'None') {
+    return '';
+  }
+
+  return `- [License](#license)`;
+ }
 
 // Function that returns the license section of README
 // If there is no license, return an empty string
@@ -30,6 +36,7 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   const licenseBadge = renderLicenseBadge(data.license);
   const licenseSection = renderLicenseSection(data.license);
+  const licenseLink = renderLicenseLink (data.license);
   return `# ${data.title}
 
   ${licenseBadge}
@@ -45,6 +52,7 @@ function generateMarkdown(data) {
    - [Contribution](#contribution)
    - [Tests](#tests)
    - [Questions/Contact Info](#questions/contact-info)
+   ${licenseLink}
    
   ## Installation
 
