@@ -13,17 +13,17 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Enter projcet description:',
+        message: 'Enter project description:',
     },
     {
         type: 'input',
         name: 'installation',
-        message: 'Enter project intallation instructions:',
+        message: 'Enter project installation instructions:',
     },
     {
         type: 'input',
         name: 'usage',
-        message: 'Enter projcet usage information:',
+        message: 'Enter project usage information:',
     },
     {
         type: 'input',

@@ -21,6 +21,25 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
   ${LicenseBadge}
+
+  ## Description
+
+  ## Table of Contents
+
+  ## Installation
+
+  ## Usage
+
+  ## Contribution
+
+  ## Tests
+
+  ## Questions/Contact Info
+
+  If you have any questions, please reach out:
+
+  - GitHub: 
+  - Email: 
 `;
 }
 
